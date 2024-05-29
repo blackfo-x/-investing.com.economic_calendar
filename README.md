@@ -17,18 +17,18 @@ pip install requests beautifulsoup4 arrow pytz
 Usage
 Clone the repository:
 
-git clone https://github.com/yourusername/economic-news-scraper.git
-cd economic-news-scraper
+```git clone https://github.com/yourusername/economic-news-scraper.git```
+```cd economic-news-scraper```
 Ensure all dependencies are installed:
 
-pip install -r requirements.txt
+```pip install -r requirements.txt```
 Run the script:
 
 
-python update_economic_news.py
+```python update_economic_news.py```
 The script will begin running, fetching new data every hour, and updating the database. It will print progress messages to the console, so you can monitor its activity.
 
-Script Overview
+***Script Overview***
 Initialization
 The Investing class is initialized with a URL to the economic calendar and a path to the SQLite database. The database connection is established, and the news_meta table is created if it doesn't already exist.
 
