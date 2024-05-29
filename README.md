@@ -48,4 +48,4 @@ License
 This project is licensed under the MIT License.
 
 Contact
-For any questions or feedback, please open an issue on the repository or contact your.email@example.com.
+snapchat:Blackfox0x
